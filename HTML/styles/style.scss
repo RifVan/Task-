@@ -1,0 +1,58 @@
+/* CSS */
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    margin-top: 20px;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 300px;
+    margin-right: 20px;
+    scroll-snap-align: start;
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.carousel-item h3 {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.carousel-item p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.sign-in {
+    margin-top: 20px;
+}
+
+.sign-in h2 {
+    margin-bottom: 10px;
+}
+
+.sign-in input[type="email"],
+.sign-in input[type="password"],
+.sign-in button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.sign-in button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
